@@ -13,14 +13,14 @@ opstream.push() => opstream.send => socket.io(client) => socket.io(server) => op
 
 Browser
 
-```
+```html
 <script src="opstream.js">
 ```
 
 Node.js or Browserify
 
 ```
-npm isntall opstream
+npm install opstream
 ```
 
 ```js
@@ -30,6 +30,7 @@ var OpStream = require('opstream');
 ## Send and receive packets
 
 ```js
+//A simple example how OpStreams are connected
 var OpStream = require('./opstream');
 
 var server = new OpStream;
